@@ -8,6 +8,8 @@ Bundle "tpope/vim-cucumber"
 Bundle "scrooloose/nerdtree"
 Bundle "wincent/Command-T"
 Bundle "vim-ruby/vim-ruby"
+Bundle "mileszs/ack.vim"
+Bundle "altercation/vim-colors-solarized"
 
 " leader remap
 let mapleader=","
@@ -33,10 +35,10 @@ set colorcolumn=+5,+6
 
 " set colors
 set t_Co=256
-colorscheme molokai-customised
+"colorscheme molokai-customised
 "let g:solarized_termcolors=256
-"set background=dark
-"colorscheme solarized
+set background=dark
+colorscheme solarized
 
 " show when in insert or visual mode
 set showmode
